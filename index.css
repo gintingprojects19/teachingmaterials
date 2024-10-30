@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+/*Desktop style*/
+#menu{
+    width: 100%;
+    height: 50px;
+    background-color: dimgray;
+    display: flex;
+    position: fixed;
+    z-index: 999;
+}
+#info-left{
+    width: 20%;
+    height: 50px;
+    background-color: cornflowerblue;
+}
+#daftar-menu{
+    width: 80%;
+    height: 50px;
+    background-color: orange;
+    
+}
+#content{
+    width: 100%;
+    height: 3000px;
+    background-color: gray;
+    margin: auto;
+    padding-top: 52px;
+}
+#content1{
+    width: 100%;
+    height: 400px;
+    background: blue;
+}
+#sub-menu{
+    display: flex;
+    
+}
+.id-menu{
+    width: 100px;
+    height: 35px;
+    padding-top: 15px;
+    /*background-color: whitesmoke;*/
+    list-style: none;
+    text-align: center;
+}
+.id-menu:hover{
+    background-color: skyblue;
+    
+}
+.id-menu:hover #sub-tutorial{
+    display: block;
+}
+
+h3{text-align: left}
+
+#sub-tutorial{
+    background-color: skyblue;
+    position: absolute;
+    margin-top: 17px;
+    width: 800px;
+    height: 400px;
+    display: none;
+    margin-left: -200;
+    padding: 0;
+}
+.part1{
+    width: 40%;
+    height: 400px;
+    /*background-color: aqua;*/
+}
+#part-sub{
+    width: 100%;
+    height: 400px;
+    /*background-color: darkcyan;*/
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Tablet View*/
+@media only screen and (max-width: 600px){
+    #daftar-menu{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    #sub-tutorial{
+        bottom: 50px;
+        width: 100%;
+        margin:5%;
+        left: 0;
+        right: 5%;
+    }
+    
+}
