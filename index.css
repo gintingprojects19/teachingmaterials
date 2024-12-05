@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    
+}
+#menu{
+    width: 100%;
+    height: 100px;
+    
+    position: fixed;
+    z-index: 999;
+    box-shadow: 5px 5px 15px black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+    
+    
+    
+}
+/*menu*/
+#info-menu{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+}
+#nama{
+    padding-top: 20px;
+    padding-left: 40px;
+    font-family:sans-serif;
+    color: darkblue;
+    
+}
+#word-tag-line{
+    padding-top: 10px;
+    font-style: italic;
+    color:darkslateblue;
+    font-size: 15pt;
+}
+
+#ginting{
+    width: 50%;
+    height: 60px;
+    
+}
+#tag-line{
+    width: 50%;
+    height: 60px;
+    
+}
+.conn-menu{
+    text-decoration: none;
+}
+#menu-list{
+    width: 100%;
+    height: 40px;
+    background-color: darkblue;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    
+  /*  border-bottom: solid white 2px;*/
+}
+#mega-menu{
+    display: none;
+    position: absolute;
+}
+.kelas-mapel{
+    width: 100%;
+    
+}
+.materi-mapel{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    
+    margin: 10px;
+   
+}
+.bdg{
+    color: black;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+}
+
+.bdg-materi{
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    /*margin: auto;*/
+}
+.bdg-materi:hover{
+    background-color:lightskyblue;/*background-color:#f5efe1;*/
+    border-left: solid black 8px;
+    cursor: pointer;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+}
+.materi{
+    width: 150px;
+    margin: 10px;
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+    color: black;
+     
+}
+.mapel{
+    text-align: left;
+    padding: 10px;
+    border-left:solid 5px skyblue;
+    margin-right: 10px;
+    
+}
+#cek-materi:hover{
+    background-color: blue;
+    /*cursor: pointer;*/
+}
+
+
+#list-mega-menu{
+    width: 1000px;
+    height: 400px;
+    background: linear-gradient(-10deg,blue,darkblue);
+    overflow-y: scroll;
+    display: flex;
+    padding-right: 10px;
+}
+#click-menu #cek-materi:hover ul#mega-menu {
+    /*background: linear-gradient(-10deg,blue,darkblue);*/
+    /*cursor: pointer;*/
+    display: block;
+   /*border-top: solid white 2px;*/
+    margin-left: -50px;
+    
+}
+#tbl-menu{
+    width: 40%;
+    height: 40px;
+}
+#cek-materi{
+    background-color: darkblue;
+    width: 200px;
+    text-align: center;
+    box-shadow: 2px 2px 5px white;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+   
+    
+    
+}
+#click-menu{
+     padding-top: 8px
+}
+#copyright{
+    width: 40%;
+    height: 40px;
+    
+}
+#hak{
+    text-align: right;
+    color: white;
+    font-size: 8pt;
+    padding-top: 20px;
+}
+/*limit-page*/
+#limit-page{
+    width: 100%;
+    height: 6000px;/*menyesuaikan dengan z-index*/
+    /*background-color: darkseagreen;*/
+   
+}
+/*hero-info*/
+#hero-info{
+    width: 100%;
+    height: 650px;
+    background-color: white;
+    background-image: url(1.png);
+    background-position: center;
+    background-size: cover;
+    top: 5;
+}
+#subtitle-hero-info{
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(to top, #00000c, transparent);
+    padding-top: 400px;
+}
+#about{
+    width: 60%;
+    height: 100px;
+    
+    
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.icon{
+    width:20%;
+    height: 100px;
+    
+}
+.teks-icon{
+    width: 100%;
+}
+.tt-info{
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.tentang{
+    width: 30%;
+    height: 49px;
+    
+    background-color: cornsilk;
+    display: flex;
+    
+   
+}
+.icon-size{
+    width: 100%;
+    padding-top: 5px;
+    border-radius: 50%;
+    padding-left: 5px;
+}
+.tentang:hover{
+    border-bottom: solid black 5px;
+    box-shadow: 3px 0px 10px white;
+}
+/*-------------------Slide-----------------------*/
+#slide{
+    width: 700px;
+    height: 200px;
+    padding: 10px;
+    margin-top: 100px;
+    margin-left: 25%;
+    
+    
+    overflow-x: scroll;
+    
+}
+#dd{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+#add:hover{
+    border: solid black 5px;
+}
+#frame{
+    width: 1000px;
+    height: 100%;
+   
+    display: flex;
+    justify-content: space-evenly;
+}
+.s{
+    width: 300px;
+    height: 100%;
+    
+    margin-right: 5px;
+}
+#j{
+    background-color: aqua;
+}
+@media screen and (max-width:421px){
+    #slide{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+
+
