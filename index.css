@@ -1,0 +1,717 @@
+*{
+    margin: 0;
+    
+}
+#menu{
+    width: 100%;
+    height: 100px;
+    
+    position: fixed;
+    z-index: 999;
+    box-shadow: 5px 5px 15px black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+    
+    
+    
+}
+/*menu*/
+#info-menu{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+}
+#nama{
+    padding-top: 20px;
+    padding-left: 40px;
+    font-family:sans-serif;
+    color: darkblue;
+    
+}
+#word-tag-line {
+    padding-top: 15px;
+    font-style: italic;
+    color:darkslateblue;
+    font-size: 15pt;
+    font-family: "Edu AU VIC WA NT";
+/*  font-optical-sizing: auto;
+  font-weight: <weight>;*/
+  /*font-style: normal;*/
+}
+
+#ginting{
+    width: 50%;
+    height: 60px;
+    
+}
+#tag-line{
+    width: 50%;
+    height: 60px;
+    
+}
+.conn-menu{
+    text-decoration: none;
+}
+#menu-list{
+    width: 100%;
+    height: 40px;
+    background-color: darkblue;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    
+  /*  border-bottom: solid white 2px;*/
+}
+#mega-menu{
+    display: none;
+    position: absolute;
+}
+.kelas-mapel{
+    width: 100%;
+    
+}
+.materi-mapel{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    
+    margin: 10px;
+   
+}
+.bdg{
+    color: black;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+}
+
+.bdg-materi{
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    /*margin: auto;*/
+}
+.bdg-materi:hover{
+    background-color:lightskyblue;/*background-color:#f5efe1;*/
+    border-left: solid black 8px;
+    cursor: pointer;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+}
+.materi{
+    width: 150px;
+    margin: 10px;
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+    color: black;
+     
+}
+.mapel{
+    text-align: left;
+    padding: 10px;
+    border-left:solid 5px skyblue;
+    margin-right: 10px;
+    
+}
+#cek-materi:hover{
+    background-color: blue;
+    /*cursor: pointer;*/
+}
+
+
+#list-mega-menu{
+    width: 1000px;
+    height: 400px;
+    background: linear-gradient(-10deg,blue,darkblue);
+    overflow-y: scroll;
+    display: flex;
+    padding-right: 30px;
+    padding-bottom: 100px;
+    border-bottom: solid black 6px;
+}
+#click-menu #cek-materi:hover ul#mega-menu {
+    /*background: linear-gradient(-10deg,blue,darkblue);*/
+    /*cursor: pointer;*/
+    display: block;
+   /*border-top: solid white 2px;*/
+    margin-left: -50px;
+    
+}
+#tbl-menu{
+    width: 40%;
+    height: 40px;
+}
+#cek-materi{
+    background-color: darkblue;
+    width: 200px;
+    text-align: center;
+    box-shadow: 2px 2px 5px white;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+   
+    
+    
+}
+#click-menu{
+     padding-top: 8px
+}
+#copyright{
+    width: 40%;
+    height: 40px;
+    
+}
+#hak{
+    text-align: right;
+    color: white;
+    font-size: 8pt;
+    padding-top: 20px;
+}
+/*limit-page*/
+#limit-page{
+    width: 100%;
+    height: 6000px;/*menyesuaikan dengan z-index*/
+    /*background-color: darkseagreen;*/
+   
+}
+/*hero-info*/
+#hero-info{
+    width: 100%;
+    height: 650px;
+    background-color: white;
+    background-image: url(1.png);
+    background-position: center;
+    background-size: cover;
+    top: 5;
+}
+#subtitle-hero-info{
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(to top, #00000c, transparent);
+    padding-top: 400px;
+}
+#about{
+    width: 60%;
+    height: 100px;
+    
+    
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+/*.icon{
+    width:20%;
+    height: 100px;
+    padding: 10px;
+    
+}*/
+.teks-icon{
+    width: 100%;
+}
+
+.tt-info{
+    text-align: center;
+    font-family: "KoHo", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    color: aliceblue;
+    border: solid white 5px;
+    padding: 10px;
+    
+}
+.tt-info:hover{
+    background-color: darkblue;
+    cursor: pointer;
+}
+.tentang{
+    width: 30%;
+    height: 49px;
+    
+    
+    display: flex;
+    
+   
+}
+.icon-size{
+    width: 100%;
+    display: none;
+    border-radius: 50%;
+    padding-left: 5px;
+}
+/*assesmen*/
+#ket-ml-ass{
+    color: white;
+    padding: 10px;
+    font-family: "KoHo", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+      text-align: justify;
+}
+#assesmen{
+    width: 100%;
+    height: 600px;
+    background-color: #00008b;
+    margin-top: 100px;
+    
+    
+    
+}
+#ass{
+    font-family: "KoHo", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+    border-bottom: solid white 10px;
+    text-align: center;
+    color: white;
+}
+#jdl-assesmen{
+  padding-left: 20%;
+  padding-top: 50px;
+    width: 10%;
+    
+
+}
+.code-teks{
+  font-family: "KoHo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    padding: 10px;
+    color: white;
+}
+.border-ass{
+    width: 20%;
+    /*height: 100px;*/
+    margin: auto;
+}
+.size-test{
+    width: 100%;
+}
+.text-ass{
+    width: 100%;
+    margin: auto;
+    text-align: justify;
+    background: linear-gradient(to right,#002058,transparent);
+}
+
+#form-ass{
+    /*display: flex;*/
+    width: 80%;
+    
+    margin: auto;
+    /*box-shadow: 0px 0px 5px 0px grey;*/
+    border-bottom: solid darkblue 1px;
+    padding-bottom: 20px;
+    background: linear-gradient(to left,#0491cb,transparent);
+    /*border-right: solid darkblue 10px;*/
+    
+}
+#mulai-ass{
+   color: white;
+    text-align: center;
+    font-family: "KoHo", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+    font-size: 10pt;
+}
+#click-ass:hover{
+    cursor: pointer;
+    background-color: orangered;
+}
+#click-ass{
+    width: 200px;
+    padding: 5px;
+    background-color: deepskyblue;;
+    
+    border-radius: 20px;
+    margin-top: 10px;
+}
+/*info diri*/
+#info-diri{
+    width: 100%;
+    height: 300px;
+    /*background-color: blue;*/
+    padding-top: 70px;
+}
+#my-text{
+    text-align: justify;
+    margin-top: 20px;
+    font-family: "KoHo", sans-serif;
+  font-weight: 350;
+  font-style: normal
+}
+#diri{
+    width: 60%;
+    height: 300px;
+   /* background-color: black;*/
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+#gbr-diri{
+    width: 35%;
+    height: 300px;
+    
+}
+#text-diri{
+    width: 60%;
+    height: 300px;
+    
+}
+#text-nama{
+    font-family: "KoHo", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+    margin-top: 20px;
+    border-bottom: solid black 2px;
+    padding: 10px;
+    
+}
+#gtg{
+    width: 100%;
+}
+#mdps{
+    width: 100%;
+    height: 500px;
+    
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+#scroll-slide-mdps{
+    width: 95%;
+    height: 460px;
+    background-color: white;
+    margin: auto;
+    overflow-x: scroll;
+        
+}
+#frame-scroll-mdps{
+    width: 2200px;
+    height: 400px;
+   
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#info-scroll-mdps{
+    color: darkblue;
+    width: 100%;
+    text-align: center;
+}
+#ket-mdps{
+    width: 25%;
+    height: 480px;
+    background:linear-gradient(to bottom,darkblue,transparent);
+}
+#ket-materi-dasar{
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 2px 0px 5px 0px white;
+    background: linear-gradient(10deg, darkblue,transparent);
+    font-family: "KoHo", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+#slide-des{
+  font-family: "KoHo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    color: white;
+    text-align: justify;
+    padding: 20px;
+}
+.jdl-materi-sd{
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+font-family: "KoHo", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+.tbl-materi{
+    margin-left: 40px;
+    background-color: orangered;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    
+}
+.materi-sd:hover{
+    background-color: #d8cff563;
+}
+.tbl-materi:hover{
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+}
+.des-materi-sd{
+    width: 90%;
+    /*box-shadow: 1px 1px 5px 0px grey;*/
+    padding: 20px;
+    text-align: justify;
+        font-family: "KoHo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.materi-sd{
+    width: 500px;
+    height: 400px;
+    
+    margin-right: 10px;
+    border: solid 1px grey;
+    border-radius:30px;
+    box-shadow: 5px 1px 5px 1px grey;
+}
+#slide-mdps{
+    width: 65%;
+    height: 480px;
+    
+    padding-top: 20px;
+/*    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px grey;*/
+}
+#tbl-info-galery1{
+    padding: 10px;
+    margin-left: 10%;
+    background-color: orange;
+    color: white;
+    width: 120px;
+    margin-top: 10px;
+    text-align: center;
+    
+}
+#tbl-info-galery1:hover{
+    background-color: white;
+    color: darkblue;
+    cursor: pointer;
+}
+#galery1{
+    width: 100%;
+    height: 700px;
+    background-color: darkslateblue;
+    padding-top: 50px;
+   
+    
+}
+#col-gal{
+    width: 90%;
+    height: 500px;
+    display: flex;
+    background:linear-gradient(to bottom,darkblue,transparent);
+     box-shadow: 2px 0px 15px 0px black;
+    margin: auto;
+    /*border-top: solid 5px white;*/
+}
+#gal{
+    color: white;
+    width: 200px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px 0px white;
+    border-radius: 10px;
+    margin-left: 100px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#animate-foto{
+    width: 48%;
+    padding: 20px;
+    
+    
+}
+#foto-slide-animate{
+    width: 100%;
+    box-shadow: 2px 0px 15px 0px black;
+    border-radius: 5px;
+}
+#text-animate-foto{
+    width: 50%;
+    height: 400px;
+    
+    margin-top: 20px;
+}
+.text-foto{
+    text-align: justify;
+    color: white;
+    padding: 20px;
+}
+/*-------------------Slide-----------------------*/
+
+@media screen and (max-width:860px){
+    #word-tag-line{
+        font-size: 10px;
+    }
+    #text-animate-foto{
+        
+    }
+    #col-gal{
+        display: block;
+    }
+    #animate-foto{
+        width: 90%;
+    }
+    #text-animate-foto{
+        width: 100%;
+    }
+    #info-menu{
+        display: block;
+    }
+    #ginting{
+        width: 100%;
+        height: 30px;
+    }
+    #nama{
+        font-size: 15px;
+    }
+    #tag-line{
+        width: 100%;
+    }
+    #word-tag-line{
+        padding-left: 35px;
+    }
+    #about{
+        display: block;
+    }
+    .tentang{
+        width: 90%;
+    }
+    #subtitle-hero-info{
+        
+    }
+    #about{
+       width: 100%;
+        
+        
+        
+    }
+    .tentang{
+        width: 100%;
+        
+    }
+    .tt-info:hover{
+        color: white;
+        background-color: darkblue;
+    }
+    .tt-info{
+        width: 80%;
+        margin-left: 6%;
+        background-color: skyblue;
+        color: black;
+        border-radius:16px;
+    }
+    #hak{
+        display: none;
+    }
+    #list-mega-menu{
+        display: block;
+        margin-left: -12.8%;
+        width: 100%;
+    }
+    .bdg-materi{
+        
+        margin-left: 9%;
+    }
+    #diri{
+        /*display: block;*/
+        width: 80%;
+        
+    }
+    #text-diri{
+        width: 100%;
+        padding-top: 20px;
+    }
+    #gbr-diri{
+        width: 100%;
+    }
+    #infor-diri{
+        height: 500px;
+         
+    }
+    #assesmen{
+        margin-top: 100px;
+        height: 800px;
+        
+    }
+    #mdps{
+        display: block;
+        margin-bottom: 500px;
+    }
+    #ket-mdps{
+        width: 100%;
+    }
+    #slide-mdps{
+        width: 100%;
+        
+    }
+    .materi-sd{
+        width: 300px;
+        /*background-color: red;*/
+       margin-left: -25%;
+        
+    }
+    .frame-scroll-mdps{
+        justify-content: flex-start;
+        padding-left: 10%;
+    }
+    
+}
+
+
+/*  font-family: "KoHo", sans-serif;
+  font-weight: 200;
+  font-style: normal*/
+
+@media screen and (max-width:832px){
+    #info-diri{
+        height: 500px;
+    }
+    
+}
+
+@media screen and (max-width:656px){
+    #diri{
+        display: block;
+    }
+    #gtg{
+        width: 50%;
+        margin-left: 25%;
+    }
+    #text-nama{
+        text-align: center;
+        font-size: 15pt;
+    }
+    #gbr-diri{
+        height: 230px;;
+    }
+}
+
+@media screen and (max-width:566px){
+    #text-diri{
+        margin-top: -50px;
+    }
+}
+
+@media screen and (max-width:449px){
+    #text-diri{
+        margin-top: -70px;
+    }
+}
+@media screen and (max-width:412px){
+    #text-diri{
+        margin-top: -100px;
+    }
+
+}
